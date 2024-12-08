@@ -1,10 +1,10 @@
 package baseball;
 
 public class BaseBallTeam {
-    protected String name;
-    protected int win;
-    protected int lose;
-    protected int draw;
+    private String name;
+    private int win;
+    private int lose;
+    private int draw;
 
     public BaseBallTeam(String name, int win, int lose, int draw) {
         this.name = name;
